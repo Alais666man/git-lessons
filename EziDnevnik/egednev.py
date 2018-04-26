@@ -1,5 +1,5 @@
 def list_task():
-    print('Вот твои задачи')
+    print('Вот твои задачи!')
 lt = list_task 
     
 def add_task():
