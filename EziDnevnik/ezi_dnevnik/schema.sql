@@ -9,7 +9,7 @@ cursor = conn.cursor()
 # время задания (день\месяц\год)
 #
 sql = '''
-    CREATE TABLE IF NOT EXISTS tasks (
+    CREATE TABLE IF NOT EXISTS task (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         date DATETIME
         task_name TEXT NOT NULL,
